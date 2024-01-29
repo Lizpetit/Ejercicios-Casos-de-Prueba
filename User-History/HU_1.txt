@@ -1,0 +1,20 @@
+Título: Consulta de Transacciones en la Aplicación Móvil
+
+Descripción:
+Yo como Product Owner del app movil
+Quiero que se puedan realizar consultas detalladas de transacciones 
+Para que los usuarios puedan mantener un control preciso de sus finanzas.
+
+Criterios de Aceptación:
+
+1. El usuario debe poder acceder a la función de consulta de transacciones de manera intuitiva 
+desde la pantalla principal de la aplicación móvil.
+
+2. La aplicación debe permitir al usuario filtrar sus transacciones por fechas y tipos de transacciones 
+(por ejemplo, ingresos o gastos) para obtener información específica.
+
+3. El usuario debe tener la capacidad de ver detalles completos de cada transacción, incluyendo 
+fecha, monto, descripción.
+
+4. Se debe proporcionar la opción de exportar el historial de transacciones en formatos comunes
+(por ejemplo, CSV o PDF) para facilitar la gestión financiera personal fuera de la aplicación.

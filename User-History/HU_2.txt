@@ -1,0 +1,23 @@
+Título: Realizar Pagos con Tarjeta de Crédito en la Aplicación Móvil
+
+Descripción:
+Yo como PO de la aplicación móvil
+Quiero que se puedan realizar pagos de tarjetas de crédito propias del banco
+Para que nuestro clientes tengan esta opcion segura directamente desde la aplicación.
+
+Criterios de Aceptación:
+
+1. El usuario debe tener acceso fácil y directo a la función de pago de tarjeta de crédito propias
+desde la pantalla principal de la aplicación.
+
+2. La aplicación debe permitir al usuario seleccionar la cuenta desde la cual realizará el pago 
+y especificar el monto que desea abonar a su tarjeta de crédito.
+
+3. Después de realizar el pago, la aplicación debe proporcionar una confirmación inmediata y un 
+resumen de la transacción.
+
+4. El usuario debe poder revisar un historial de pagos recientes dentro de la aplicación, incluyendo
+fechas, montos y estados de las transacciones (por ejemplo, pendiente, completado).
+Notificaciones:
+
+5. La aplicación debe enviar notificaciones via email al usuario cuando realice el pago de TDC.
