@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de Prueba 1. Acceso a la opción del menu consulta de transacciones 
+
+Descripción: Verificar que el usuario puede acceder de manera facil a la función de consulta de 
+transacciones desde la pantalla principal de la aplicación.
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+
+Resultado Esperado: Se debe poder visualizar el titulo de la pantalla "Consulta de Transacciones". 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 2. Validar que se muestren los filtros en la pantalla consulta de transacciones.
+
+Descripción: validar que el usuario pueda visualizar los filtros de fecha y tipo de transacción para
+realizar consultas específicas. 
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+ 
+Resultado esperado: Que se muestren los filtros fecha(Desde y Hasta) y tipo de transaccion(Todos,Ingresos,Egresos).
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 3: Detalles de transacciones.
+
+Descripción: Verificar que el usuario puede visualizar los detalles completos de sus transacciones
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+
+
+Resultado Esperado: Se debe mostrar por default las ultimas 10 transacciones del cliente con los campos: Fecha,
+Monto, Descripción y Tipo de Operación.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 4: Consultas de transacciones usando filtros.
+
+Descripción: Validar que el cliente pueda consultar transacciones aplicando los filtros de fechas y tipo 
+de operación.
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+4.Seleccionar fecha desde: 22-01-2024
+5.Seleccionar fecha hasta: 24-01-2024
+5.seleccionar tipo de Operación: Todas
+6.Hacer click en buscar.
+
+ Resultado: El cliente debe visualizar todas las transacciönes realizadas durante ese rango de fechas de 
+ forma exitosa. 
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 5: Filtrar transacciones de tipo gastos.
+
+Descripción: Validar que el cliente pueda consultar transacciones aplicando los filtros de fechas y tipo de
+Operación gastos.
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+4.Seleccionar fecha desde: 22-01-2024
+5.Seleccionar fecha hasta: 22-01-2024
+5.seleccionar tipo de Operación: Gastos
+6.Hacer click en buscar.
+
+ Resultado: El cliente debe visualizar todas las transacciones de tipo gastos realizadas durante ese 
+ rango de fechas de forma exitosa.
+
+---------------------------------------------------------------------------------------------------------
+Caso de prueba 6: Existencia de opciones de formato PDF y CSV para descargar historial.
+
+Descripción: Verificar que el usuario pueda visualisar las dos opciones para descargar 
+historial en formato PDF o CSV.
+
+Pasos:
+
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+
+Resultado esperado: Se deben visualizar las opciones para que el historial pueda ser descargado.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 7: Validar que se pueda descarga de historial en formato PDF.
+
+Descripción: Verificar que el usuario pueda descargar el historial de transacciones en formato PDF.
+
+Pasos:
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+4.Hacer click en el boton "PDF"
+
+Resultado esperado: Se debe descargar archivo de forma exitosa en formato PDF. (Información de transacciones
+ en el archivo debe ser igual a lo mostrado en pantalla)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Caso de prueba 8: Descarga de historial en formato CSV
+
+descripción: Verificar que el usuario pueda desacargar el historial de transacciones en formato CSV
+
+Pasos: 
+1.Iniciar sesión en la aplicación.
+2.Visualizar el menu de "Consultas".
+3.Hacer click en la opción "Consulta de Transacciones".
+4.Hacer click en el boton "CSV"
+
+Resultado esperado: Se debe descargar archivo de forma exitosa en formato CSV. (Información de transacciones
+ en el archivo debe ser igual a lo mostrado en pantalla)
+
+
+
+
+
+
+
+
+
+
+
