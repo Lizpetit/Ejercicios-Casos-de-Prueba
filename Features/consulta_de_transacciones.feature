@@ -15,7 +15,7 @@ Feature: Acceso a la Función de Consulta de Transacciones
     Y hace clic en la opción "Consulta de Transacciones"
     Entonces se espera que en la pantalla se muestren los filtros de fecha y tipo de transacción
 
-    Escenario: Visualizar los detalles completos de las transacciones
+  Escenario: Visualizar los detalles completos de las transacciones
 
     Dado que el usuario ha iniciado sesión en la aplicación
     Cuando el usuario visualiza el menú de "Consultas"
@@ -23,7 +23,7 @@ Feature: Acceso a la Función de Consulta de Transacciones
     Entonces se espera que en la pantalla se muestren por defecto las últimas 10 transacciones del cliente
 
     
-    Escenario: Cliente consulta transacciones con filtros de fechas y tipo de operación
+  Escenario: Cliente consulta transacciones con filtros de fechas y tipo de operación
 
     Dado que el usuario ha iniciado sesión en la aplicación
     Cuando el usuario visualiza el menú de "Consultas"
